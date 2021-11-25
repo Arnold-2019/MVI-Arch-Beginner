@@ -42,7 +42,6 @@ class MainActivity : AppCompatActivity() {
         setupClicks()
     }
 
-
     @ExperimentalCoroutinesApi
     private fun setupClicks() {
         buttonFetchUser.setOnClickListener {
